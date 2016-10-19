@@ -1,0 +1,36 @@
+/index.html
+.vagrant
+.htpass
+*.sublime-workspace
+.idea
+.DS_Store
+yarn.lock
+
+# Sass #
+###########
+*.sass-cache*
+
+# Grunt #
+###########
+*node_modules/
+node_modules/
+bower_components/
+*bower_components
+
+# CRAFT
+/public/cpresources/*
+/public/site/cpresources/*
+/public/api/cpresources/*
+
+# CRAFT STORAGE
+# http://buildwithcraft.com/help/craft-storage-gitignore
+# ------------------------------------------------------------
+/craft/storage/*
+!/craft/storage/.gitignore
+!/craft/storage/logo/*
+composer.lock
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
